@@ -188,8 +188,8 @@ function App() {
 	useToast(data.toast);
 	const location = useLocation();
 
-	const showHeader = !location.pathname.startsWith('/login');
-	const showNavbar = !location.pathname.startsWith('/login');
+	const showHeader = !location.pathname.startsWith('/');
+	const showNavbar = !location.pathname.startsWith('/');
 
 	return (
 		<Document
