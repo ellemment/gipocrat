@@ -43,7 +43,7 @@ export function GlobalHeader({ userPreference, className = '' }: GlobalHeaderPro
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
             <Link to='/' className="text-inherit hover:opacity-75 transition-opacity">
-              <span className="text-sm font-medium">Creemson</span>
+              <span className="text-sm font-medium">Gipocrat</span>
             </Link>
           </div>
           <div className="hidden lg:flex lg:items-center lg:justify-center lg:gap-10">
